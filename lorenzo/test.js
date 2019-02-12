@@ -1,5 +1,5 @@
 var http = require('http');
-var sever = http.createServer(function (req, res) {
+var server = http.createServer(function (req, res) {
     
     var a = 3
     var b= 3;
