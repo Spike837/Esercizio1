@@ -5,7 +5,7 @@ var server = http.createServer(function (req, res) {
     var b= 3;
 
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hola ' + (+a+b))
+  res.end('FUNZIONA!')
   
 })
 console.log(server._events.connection);
